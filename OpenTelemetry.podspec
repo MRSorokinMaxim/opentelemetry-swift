@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'OpenTelemetryApi'
   s.dependency 'OpenTelemetrySdk'
-  #s.dependency 'OpenTelemetry_ResourceExtension'
+  s.dependency 'OpenTelemetry-ResourceExtension'
   s.dependency 'OpenTelemetry-NetworkStatus'
   s.dependency 'OpenTelemetry-URLSessionInstrumentation'
   s.dependency 'OpenTelemetry-SignPostIntegration'

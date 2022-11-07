@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name            = "OpenTelemetry_ResourceExtension"
+  s.name            = "OpenTelemetry-ResourceExtension"
   s.version         = "1.0.0"
-  s.summary         = "A swift OpenTelemetry_ResourceExtension"
+  s.summary         = "A swift OpenTelemetry-ResourceExtension"
   s.homepage        = "https://github.com/MRSorokinMaxim/opentelemetry-swift"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
   s.author          = "DDL Team"
