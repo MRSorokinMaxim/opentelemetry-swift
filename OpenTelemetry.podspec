@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/OpenTelemetryApi/**/*.swift"
 
   s.dependency "opentracing"
-  s.dependency "Thrift"
+  s.dependency "Thrift-swift3"
   s.dependency "SwiftNIO"
   s.dependency "SwiftGRPC"
   s.dependency "SwiftMetrics"
