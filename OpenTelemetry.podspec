@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = "Sources/OpenTelemetryApi/**/*.swift"
+  s.source_files = "Sources/**/*.swift"
 
   s.dependency "opentracing"
   s.dependency "Thrift"
