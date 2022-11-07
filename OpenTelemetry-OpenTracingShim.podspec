@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/Importers/OpenTracingShim/**/*.swift"
 
   s.dependency 'OpenTelemetrySdk'
-  s.dependency 'Opentracing'
+  s.dependency 'opentracing'
 end
