@@ -6,7 +6,7 @@
 import Foundation
 import OpenTelemetryApi
 import OpenTelemetrySdk
-import Opentracing
+import opentracing
 
 public class TraceShim {
     public static var instance = TraceShim()

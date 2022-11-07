@@ -5,7 +5,7 @@
 
 import Foundation
 import OpenTelemetryApi
-import Opentracing
+import opentracing
 
 public class SpanContextShim: OTSpanContext, BaseShimProtocol {
     var telemetryInfo: TelemetryInfo

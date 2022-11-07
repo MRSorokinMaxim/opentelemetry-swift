@@ -5,7 +5,7 @@
 
 import Foundation
 import OpenTelemetryApi
-import Opentracing
+import opentracing
 
 public class TracerShim: OTTracer, BaseShimProtocol {
     public static let OTReferenceChildOf = "child_of"
