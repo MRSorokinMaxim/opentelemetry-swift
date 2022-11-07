@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.dependency "opentracing"
   s.dependency "Thrift"
-  s.dependency "swift-nio"
-  s.dependency "grpc-swift"
-  s.dependency "swift-metrics"
+  s.dependency "SwiftNIO"
+  s.dependency "SwiftGRPC"
+  s.dependency "SwiftMetrics"
 end
