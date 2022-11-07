@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/Exporters/Jaeger/**/*.swift"
 
   s.dependency 'OpenTelemetrySdk'
+  s.dependency 'OpenTelemetryApi'
   s.dependency "Thrift"
 end

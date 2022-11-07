@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/Exporters/Persistence/**/*.swift"
 
   s.dependency 'OpenTelemetrySdk'
+  s.dependency 'OpenTelemetryApi'
 end
 
