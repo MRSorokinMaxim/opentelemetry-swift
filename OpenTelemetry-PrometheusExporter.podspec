@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'OpenTelemetrySdk'
   s.dependency "SwiftNIO"
-  s.dependency "NIOHTTP1"
+  s.dependency "SwiftNIOHTTP1"
 end
