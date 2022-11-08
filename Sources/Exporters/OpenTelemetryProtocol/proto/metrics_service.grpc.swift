@@ -22,7 +22,7 @@
 //
 import GRPC
 import NIO
-import NIOConcurrencyHelpers
+import SwiftNIOConcurrencyHelpers
 import SwiftProtobuf
 
 

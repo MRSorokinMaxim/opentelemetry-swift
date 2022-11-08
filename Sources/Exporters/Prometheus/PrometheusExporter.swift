@@ -4,7 +4,7 @@
  */
 
 import Foundation
-import NIOConcurrencyHelpers
+import SwiftNIOConcurrencyHelpers
 import OpenTelemetrySdk
 
 public class PrometheusExporter: MetricExporter {
