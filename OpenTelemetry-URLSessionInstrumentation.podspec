@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'OpenTelemetrySdk'
   s.dependency 'OpenTelemetryApi'
-  s.dependency 'NetworkStatus'
+  s.dependency 'OpenTelemetry-NetworkStatus'
 end
