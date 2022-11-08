@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = "OpenTelemetry-PrometheusExporter"
-  s.version         = "1.0.1"
+  s.version         = "1.0.2"
   s.summary         = "A swift OpenTelemetry-PrometheusExporter"
   s.homepage        = "https://github.com/MRSorokinMaxim/opentelemetry-swift"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'OpenTelemetrySdk'
   s.dependency "SwiftNIO"
+  s.dependency "SwiftNIOHTTP1"
+  s.dependency "SwiftNIOConcurrencyHelpers"
 end
