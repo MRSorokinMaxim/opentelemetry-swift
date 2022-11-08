@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
+  s.static_framework = true
   s.source_files = "Sources/Exporters/OpenTelemetryProtocol/**/*.swift"
 
   s.dependency 'OpenTelemetrySdk'
