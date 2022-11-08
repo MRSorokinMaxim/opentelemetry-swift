@@ -5,7 +5,7 @@
 
 import Foundation
 import NIO
-import NIOHTTP1
+import SwiftNIOHTTP1
 
 public class PrometheusExporterHttpServer {
     private let group = MultiThreadedEventLoopGroup(numberOfThreads: 1)
