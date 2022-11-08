@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = "OpenTelemetry-SwiftMetricsShim"
-  s.version         = "1.0.2"
+  s.version         = "1.0.1"
   s.summary         = "A swift OpenTelemetry-SwiftMetricsShim"
   s.homepage        = "https://github.com/MRSorokinMaxim/opentelemetry-swift"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'OpenTelemetrySdk'
   s.dependency "SwiftNIOConcurrencyHelpers"
-  s.dependency "CoreMetrics"
+  s.dependency "SwiftMetrics"
 end

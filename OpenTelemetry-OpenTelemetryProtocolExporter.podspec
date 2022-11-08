@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/Exporters/OpenTelemetryProtocol/**/*.swift"
 
   s.dependency 'OpenTelemetrySdk'
-  s.dependency 'gRPC-Swift', '1.7.1'
+  s.dependency 'gRPC-Swift'
 end
