@@ -4,7 +4,7 @@
  */
 
 import SwiftMetrics
-import SwiftNIOConcurrencyHelpers
+import NIOConcurrencyHelpers
 import OpenTelemetryApi
 
 public class OpenTelemetrySwiftMetrics: MetricsFactory {
