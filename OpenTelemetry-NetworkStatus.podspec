@@ -13,5 +13,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "Sources/Instrumentation/NetworkStatus/**/*.swift"
 
+  s.frameworks = 'CoreTelephony', 'Network', 'SystemConfiguration'
+
   s.dependency 'OpenTelemetryApi'
 end
