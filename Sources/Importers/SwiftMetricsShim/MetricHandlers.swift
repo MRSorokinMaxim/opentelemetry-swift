@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import CoreMetrics
+import SwiftMetrics
 import OpenTelemetryApi
 
 class SwiftCounterMetric: CounterHandler, SwiftMetric {

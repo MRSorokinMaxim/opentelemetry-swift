@@ -4,7 +4,7 @@
  */
 
 import Foundation
-import CoreMetrics
+import SwiftMetrics
 
 extension Array where Element == (String, String) {
     var dictionary: [String: String] {

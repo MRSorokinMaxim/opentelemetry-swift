@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import CoreMetrics
-import NIOConcurrencyHelpers
+import SwiftMetrics
+import SwiftNIO
 import OpenTelemetryApi
 
 public class OpenTelemetrySwiftMetrics: MetricsFactory {
