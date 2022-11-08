@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/Importers/SwiftMetricsShim/**/*.swift"
 
   s.dependency 'OpenTelemetrySdk'
-  s.dependency "SwiftNIO"
+  s.dependency "SwiftNIOConcurrencyHelpers"
   s.dependency "SwiftMetrics"
 end
