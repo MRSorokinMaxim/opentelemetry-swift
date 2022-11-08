@@ -8,7 +8,7 @@ import OpenTelemetryApi
 import OpenTelemetrySdk
 import os.log
 #if os(iOS) && !targetEnvironment(macCatalyst)
-    import NetworkStatus
+    import OpenTelemetry_NetworkStatus
 #endif // os(iOS) && !targetEnvironment(macCatalyst)
 
 class URLSessionLogger {
