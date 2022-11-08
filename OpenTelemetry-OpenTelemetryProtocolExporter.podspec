@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = "OpenTelemetry-OpenTelemetryProtocolExporter"
-  s.version         = "1.0.2"
+  s.version         = "1.0.1"
   s.summary         = "A swift OpenTelemetry-OpenTelemetryProtocolExporter"
   s.homepage        = "https://github.com/MRSorokinMaxim/opentelemetry-swift"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -11,9 +11,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.static_framework = true
   s.source_files = "Sources/Exporters/OpenTelemetryProtocol/**/*.swift"
 
   s.dependency 'OpenTelemetrySdk'
-  s.dependency 'gRPC-Swift', '1.0.0'
+  s.dependency 'gRPC-Swift'
 end
